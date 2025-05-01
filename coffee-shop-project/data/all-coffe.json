@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Espresso",
+    "type": "hot",
+    "price": 4.5,
+    "is_new": true,
+    "image": "default.jpg"
+  },
+  {
+    "name": "Iced Latte",
+    "type": "cold",
+    "price": 5.0,
+    "is_new": false,
+    "image": "default.jpg"
+  }
+]

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Coffee Shop</h1>
+    </header>
+    <main>
+      <section id="carousel-section">
+        <h2>New Coffees</h2>
+        <div id="carousel-container"></div>
+      </section>
+      <section id="filter-section">
+        <button data-type="all">All Items</button>
+        <div id="filter-buttons"></div>
+      </section>
+      <section id="table-section">
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Type</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody id="items-table-body"></tbody>
+        </table>
+      </section>
+      <section id="feedback-section">
+        <h2>Feedbacks</h2>
+        <div id="feedback-carousel"></div>
+      </section>
+      <section id="subscribe-section">
+        <h2>Subscribe</h2>
+        <form id="subscribe-form">
+          <input type="email" id="email-input" placeholder="Enter your email" required />
+          <button type="submit" id="subscribe-button">Subscribe</button>
+          <button type="button" id="unsubscribe-button" style="display: none;">Unsubscribe</button>
+        </form>
+        <p id="subscribe-message"></p>
+      </section>
+    </main>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

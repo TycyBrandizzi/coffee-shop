@@ -1,0 +1,12 @@
+[
+  {
+    "name": "John Doe",
+    "message": "Great coffee and atmosphere!",
+    "rating": 5
+  },
+  {
+    "name": "Jane Smith",
+    "message": "Loved the espresso!",
+    "rating": 4
+  }
+]
